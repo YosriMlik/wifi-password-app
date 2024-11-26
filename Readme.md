@@ -18,7 +18,3 @@ This is a simple Electron application that enables users to easily share Wi-Fi p
 
 ---
 
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/wifi-password-sharing.git
