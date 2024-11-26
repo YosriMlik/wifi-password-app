@@ -17,4 +17,9 @@ This is a simple Electron application that enables users to easily share Wi-Fi p
 - **OS Support**: Windows 10+, macOS 11+, and modern Linux distributions.
 
 ---
+## Screenshots
 
+### Home Screen
+This is the main interface of the app:
+
+![Home Screen](assets/Screenshot.png)
