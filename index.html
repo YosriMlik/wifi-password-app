@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wi-Fi Password Viewer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/bulma.min.css">
+</head>
+<body class="container">
+    <div class="head">
+        <h1 class="title is-1">Wi-Fi Password Viewer</h1>
+        <button class="button is-white" id="fetch-btn">
+            <b>Fetch Wi-Fi Passwords</b> &nbsp;
+            <span class="icon is-primary is-dark">
+                <img class="is-primary is-dark" src="assets/wifi.svg" alt="">
+            </span>
+        </button>
+    </div>
+    <input class="input search" type="text" id="searching" placeholder="Search 🔍" />
+    <table class="table is-bordered is-striped is-narrow is-hoverable" id="wifi-list">
+    <canvas id="qrcode" style="display:none;"></canvas>
+    <script src="renderer.js"></script>
+</body>
+</html>

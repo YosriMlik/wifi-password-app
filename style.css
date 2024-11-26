@@ -1,0 +1,27 @@
+html {
+    overflow-y:scroll;
+}
+.search{
+    width: 250px !important;
+    margin-left: 100px;
+}
+table{
+    margin-left: 100px;
+    min-width: 750px;
+}
+table thead tr th{
+    min-width: 250px;
+}
+
+.head {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+#wifi-list {
+    margin-top: 10px;
+}
+.qr-image {
+    margin-top: 10px;
+}
